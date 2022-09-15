@@ -1,0 +1,102 @@
+.row {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Menu {
+    text-align: center;
+}
+
+section {
+    position: relative;
+}
+
+.para {
+    background-color: #bfbfbf;
+    border: 2px solid black;
+    height: 150px;
+    margin-right: 10px;
+    padding: 40px 10px 5px 10px;
+    overflow: hidden;
+}
+
+#para1 {
+    background-color: #D59890;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#para2 {
+    background-color: #ac4040;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#para3 {
+    background-color: #f3dd78;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+    .col-lg-4 {
+        float: left;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-6,
+    .col-md-12 {
+        float: left;
+
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+
+    .col-sm-12 {
+        float: left;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
